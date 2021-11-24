@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  background-color: #f8edeb;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+}
+.padding {
+  margin: 3rem;
+}
+.user-card-full {
+  overflow: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.card {
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 30px;
+  border: black solid;
+  width: 300px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+}
+.m-r-0 {
+  margin-right: 0px;
+}
+.m-l-0 {
+  margin-left: 0px;
+}
+.user-card-full .user-profile {
+  border-radius: 5px 0 0 5px;
+}
+.bg-c-lite-green {
+  background: linear-gradient(to right, #ee5a6f, #f29263);
+}
+.user-profile {
+  padding: 20px 0;
+  
+}
+.card-block {
+  padding: 1.25rem;
+}
+.m-b-25 {
+  margin-bottom: 25px;
+}
+.img-radius {
+  border-radius: 5px;
+}
+h6 {
+  font-size: 14px;
+}
+.card .card-block p {
+  line-height: 25px;
+  
+}
+/* @media only screen and (min-width: 1400px) {
+  p {
+    font-size: 14px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+} */
+.card-block {
+  padding: 1.25rem;
+}
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+.card .card-block p {
+  line-height: 25px;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.text-muted {
+  color: #919aa3 !important;
+}
+.b-b-default {
+  border-bottom: 1px solid #e0e0e0;
+}
+.f-w-600 {
+  font-weight: 600;
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.m-t-40 {
+  margin-top: 20px;
+}
+.p-b-5 {
+  padding-bottom: 5px !important;
+}
+.m-b-10 {
+  margin-bottom: 10px;
+}
+.m-t-40 {
+  margin-top: 20px;
+}
+.flexB{
+  display: flex;
+  flex-wrap: wrap;
+}
+.titlea{
+  margin-right: 0px;
+  text-align: center;
+  border: 3px solid #333333;
+  font-size: 2.5rem;
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+  text-transform: uppercase;
+  letter-spacing: 0.3ch;
+  background: #fec89a;
+  position: relative;
 }
